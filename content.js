@@ -34,6 +34,7 @@ const monitorCaptions = () => {
       chrome.storage.local.set({ captionStartTime, captionEndTime }, () => { });
     };
 
+    currentText = '';
     speakers.forEach((speaker, index) => {
       const content = contents[index];
       currentText += speaker.textContent.trim() + '\n' + content.textContent.trim()+ '\n\n';

@@ -22,7 +22,7 @@ const monitorCaptions = () => {
   const captionsContainer = document.querySelector('div[jscontroller="KPn5nb"]');
   const captionsRegion = document.querySelector('.nMcdL.bj4p3b');
   const speakers = document.querySelectorAll('span.NWpY1d');
-  const contents = document.querySelectorAll('div.bh44bd.VbkSUe');
+  const contents = document.querySelectorAll('div.ygicle.VbkSUe');
   // console.log("captionsSaved", captionsSaved);
   if (captionsRegion) {
     // console.log('字幕が表示されました', captionsContainer.textContent, captionsContainer.textContent.length);
